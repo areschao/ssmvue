@@ -1,4 +1,7 @@
 mybatis-plus:
+  configuration:
+  #默认为true 下划线转驼峰，如果改成false 发送的sql语句就为 驼峰命名的
+    map-underscore-to-camel-case: true
   global-config:
     db-config:
       id-type: auto
