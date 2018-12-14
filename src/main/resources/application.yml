@@ -1,0 +1,21 @@
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      #取消下划线
+      table-underline: true
+      #逻辑删除配置
+      logic-delete-value: -1
+      logic-not-delete-value: 1
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+   com.chao.ssmvue: debug
+server:
+  port: 8082
+
+
+
+
